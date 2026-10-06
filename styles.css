@@ -1,0 +1,47 @@
+/* Name: Moussa | Date: October 4, 2026 | Assignment: Week 5 Project - Trip Destination Check List */
+/* Styles for the trip checklist page */
+
+/* Page background and default text */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e8e8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main container: 80% width, centered, gradient card */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #8b0a1e, #1a1a7a);
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Center the heading */
+h1 {
+    text-align: center;
+}
+
+/* Destination photo */
+img {
+    width: 320px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Checklist block: narrow and centered */
+#div-list {
+    width: 280px;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* Tally line under the list */
+#tally {
+    font-style: italic;
+    font-size: 14px;
+}
